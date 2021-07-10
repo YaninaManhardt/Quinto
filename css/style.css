@@ -1,0 +1,359 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(105, 27, 150);
+    border-radius: 5px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    flex-wrap: wrap;
+}
+.baner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.baner video{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+    margin: 0;
+}
+.baner .contenedor{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+    text-align: center;
+    z-index: 1;
+}
+.baner.contenedor h1{
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+.baner.contenedor h3{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 30px;
+
+}
+
+.nav{
+    padding: 10px;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(196, 148, 188);
+}
+.ingresa{
+    text-align: end;
+    padding-bottom: 10px;
+
+}
+
+.footer{
+    padding: 40px;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+    background-color: rgb(14, 10, 17);
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    left: 0%;
+    bottom: 0%;
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+.footer p{
+    text-align: center;
+}
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+}
+.iconos{
+    padding: 40px;
+    display: flex;
+    max-width: 560px;
+    color: rgb(196, 148, 188);
+}
+.iconos h1{
+    font-size: 22px;
+}
+.iconos row1{
+    margin-top: 20px;
+    display: flex;
+}
+.iconos ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.iconos ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: bisque;
+    line-height: 30 px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+    position: absolute;
+}
+.iconos ul:hover a{
+    filter: blur(2px);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    filter: none;
+}
+.iconos ul li .facebook:hover{
+    background: var(--facebook);
+}
+.iconos ul li .instagram:hover{
+    background: var(--instagram);
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.colum1{
+    padding-top: 40px;
+    max-width: 560px;
+    color: rgb(196, 148, 188);
+    margin: 0;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.colum2{
+    max-width: 560px;
+}
+.colum3{
+    max-width: 560px;
+    color: rgb(196, 148, 188);
+    margin: 0;
+}
+.colum3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row3{
+    margin-top: 20px;
+}
+.row4{
+    margin-top: 20px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.container-footer{
+    max-width: 100%;
+    background: #420742;
+    padding: 2px;
+    font-weight: bold;
+}
+.footer2{
+    margin: 0%;
+    padding-bottom: 0%;
+    background-color: rgb(105, 27, 150);
+    border-radius: 5px;
+}
+
+.items{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0%;
+    top: 200px;
+    z-index: 2000;
+    font-weight: bold;
+}
+.items ul{
+    list-style: none;
+}
+.items ul li a{
+    display: inline-block;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+.items ul li a:hover{
+    padding: 10px 30px;
+    background: rgb(38, 30, 39);
+
+}
+.texto{
+    text-align: left;
+    padding: 60px;
+}
+.mapa{
+    position: relative;
+    padding: 40px;
+}
+
+.form-ingreso{
+    width: 180px;
+    color: rgb(87, 85, 85); 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(180, 168, 178);
+    margin: 0 auto;
+}
+.form-registro{
+    width: 300px;
+    color: rgb(87, 85, 85); 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(180, 168, 178);
+    margin: 0 auto;
+}
+.olvido{
+    margin-left: 15px;
+    font-size: small;
+    text-align: center;
+}
+.reg{
+    margin-left: 15px;
+    font-size: small;
+    text-align: center;
+}
+
+.text1{
+    text-align: justify;
+    padding: 10px 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.text2{
+    text-align: justify;
+    padding: 10px 10px;
+    padding-right: 20px;
+    padding-left: 20px;    
+}
+menu{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+figure{
+    margin: 0;
+    display: inline-block;
+    border: 1px solid rgb(163, 56, 117);
+    position: relative;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+figure img{
+    width: 430px;
+    height: 430px;
+}
+figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 90%;
+    padding: 5%;
+    background: #ebb3eb;
+    display: none;
+    text-align: justify;
+}
+figure:hover figcaption{
+    display: block;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.promo button{
+    background-color: rgb(113, 50, 172);
+    justify-content: center;
+}
+.promo button a{
+    color: antiquewhite; 
+    text-decoration: none;
+}
+.promo2 button{
+    background-color: rgb(113, 50, 172);
+}
+.promo2 button a{
+    color: antiquewhite; 
+    text-decoration: none;
+}
+main h1{
+    text-align: center; 
+    background-color: rgb(95, 31, 138);
+}
+.promo{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    padding: 25px;
+    margin: 20px;
+}
+.in-flex div{
+    padding: 25px;
+    margin: 20px;
+}
+.promo2{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.promo2 in-flex{
+    flex: 1;
+    padding: 25px;
+    margin: 20px;
+}
+.promo2 in-flex div{
+    padding: 25px;
+    margin: 20px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .container-body{
+        flex-wrap: wrap;
+    }
+}
